@@ -1,0 +1,47 @@
+body {
+    background: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* CARDS */
+.card {
+    border-radius: 12px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* IMAGE FIX */
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 20px;
+}
+
+/* TEXT */
+h1 {
+    font-weight: 700;
+}
+
+/* BADGE */
+.badge {
+    font-size: 10px;
+}
+
+/* DROPDOWN FIX */
+.dropdown-menu {
+    z-index: 2000 !important;
+}
